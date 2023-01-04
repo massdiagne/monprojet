@@ -7,7 +7,7 @@ pipeline {
 	stages {
 		stage('Source') {
 			steps{
-				git branch: 'master', url: 'https://github.com/tonux/projet-sir-2022.git'
+				git branch: 'master', url: 'https://github.com/massdiagne/monprojet.gitt'
 		}
 		
 		stage('Build') {
